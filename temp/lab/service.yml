@@ -23,4 +23,4 @@ spec:
   selector:
     app: nginx
   ports:
-
+  - port: 8080
