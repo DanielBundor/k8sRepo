@@ -36,5 +36,5 @@ spec:
         volumes:
         - name: nginx-configv1
           items:
-          - key:
+          - key: index.html
             path: index.html
