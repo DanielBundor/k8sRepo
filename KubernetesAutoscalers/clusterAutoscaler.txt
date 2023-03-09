@@ -1,0 +1,14 @@
+The Cluster Autoscaler is a tool that allows you to increase or decrease the size of a Kubernetes cluster. With Cluster Autoscaling, the below listed components make up the architecture, which can be described as follows:
+
+1. Unscheduled pods - pods awaiting scheduling.
+
+2. Pending pods - pods awaiting deployment.
+
+3. Exisiting capacity - capacity available to the kubernetes cluster.
+
+4. Just-in-time capacity - a capacity strategy used to increase efficiency and decrease the autoscaling of a Kubernetes cluster. 
+
+5. Optimized capacity - capacity that has been optimized by the cluster and in full use.
+
+
+
