@@ -1,4 +1,4 @@
-The Cluster Autoscaler is a tool that allows you to increase or decrease the size of a Kubernetes cluster. With Cluster Autoscaling, the below listed components make up the architecture, which can be described as follows:
+The Cluster Autoscaler is a tool that allows you to increase or decrease the size of a Kubernetes cluster. With Cluster Autoscaling, a CRD (custom resource definition) toollike Karpenter can help you autoscale your Kubernetes cluster with the below listed components making up its architecture, which can be described as follows:
 
 1. Unscheduled pods - pods awaiting scheduling.
 
