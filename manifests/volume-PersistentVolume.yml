@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv-1
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  storageClaimName: fast
+  awsElasticBlockStorage:
+    volumeID: <volume_id>
+    fsType: ext4

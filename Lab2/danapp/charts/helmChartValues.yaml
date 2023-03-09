@@ -1,0 +1,10 @@
+appName: danhelmapp
+
+port: 80
+
+namespace: default
+
+configmap:
+  name: danhelmapp-configmap-v1
+  data:
+    CUSTOM_HEADER: 'This app was deployed with helm'
